@@ -145,7 +145,7 @@ function buildWhatsAppOrderUrl(product) {
   const name = product.name || 'this item';
   const price = product.price ?? '0';
   const message = `Hello, I would like to order ${name} for ₵${price}.`;
-  return `https://wa.me/+233 539882324?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/+233539882324?text=${encodeURIComponent(message)}`;
 }
 
 function renderProducts(products) {
